@@ -8,7 +8,7 @@ setuptools.setup(
     author_email="yogeshin247@gmail.com",
     description="Python Package for Instagram User, Posts, Hashtags and Locations data",
     long_description_content_type="text/markdown",
-    url="https://github.com/pyphilia/instagramy",
+    url="https://github.com/pyphilia/instagramy/",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

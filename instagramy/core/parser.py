@@ -53,6 +53,12 @@ def _nodes_classfier(nodes: list):
             data["display_url"] = node["node"]["display_url"]
         except (KeyError, TypeError):
             data["display_url"] = None
+          
+        try:
+            data["gallery"] = [x["node"]["display_url"] for x in i["node"]["edge_sidecar_to_children"]["edges"]]
+        except (KeyError, TypeError):
+            data["gallery"] = None
+        
         nt = namedtuple("Post", data.keys())(*data.values())
         post_lists.append(nt)
 

@@ -1,8 +1,8 @@
 import setuptools
 
 setuptools.setup(
-    name="instagramy",
-    version="4.4",
+    name="instagramy-pyphilia",
+    version="4.4.1",
     license='MIT',
     author="Yogeshwaran R",
     author_email="yogeshin247@gmail.com",

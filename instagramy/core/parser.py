@@ -256,6 +256,7 @@ class UserParser:
             if i["node"]["is_video"]:
                 data["video_url"] = i["node"]["video_url"]
                 data["video_view_count"] = i["node"]["video_view_count"]
+                data["thumbnail"] = i["node"]["display_url"]
             if i["node"]["is_video"]:
                 data["post_source"] = i["node"]["video_url"]
             else:
